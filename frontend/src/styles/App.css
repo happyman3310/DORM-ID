@@ -1,0 +1,120 @@
+/* frontend/src/styles/App.css */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #4285f4; /* Google blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #357ae8; /* Darker shade of Google blue */
+  }
+  
+  .btn-facebook {
+    background-color: #3b5998; /* Facebook blue */
+  }
+  
+  .btn-facebook:hover {
+    background-color: #344e86; /* Darker shade of Facebook blue */
+  }
+
+
+  /* frontend/src/styles/App.css */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.profile form div {
+  margin-bottom: 15px;
+}
+
+.profile form label {
+  margin-bottom: 5px;
+}
+
+.profile form input,
+.profile form textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.profile form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.profile form button:hover {
+  background-color: #45a049;
+}
+
+
+.dashboard {
+  padding: 20px;
+}
+
+.widgets-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.widget {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.widget h3 {
+  margin: 0 0 10px 0;
+}
+
+.widget-content {
+  margin-top: 10px;
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget-header button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.widget-header button:hover {
+  background-color: #ff1a1a;
+}
+
+.widget-content {
+  overflow: auto;
+}
